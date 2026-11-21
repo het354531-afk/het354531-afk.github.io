@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Het Patel | AI & Game Developer</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background: linear-gradient(135deg, #0f172a, #1e1b4b); color: #f8fafc; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 30px 16px; }
+        .profile { text-align: center; max-width: 500px; margin-bottom: 35px; }
+        .avatar { width: 90px; height: 90px; background: linear-gradient(45deg, #38bdf8, #818cf8); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; margin: 0 auto 15px; box-shadow: 0 0 25px rgba(56, 189, 248, 0.4); }
+        .profile h1 { font-size: 2rem; color: #ffffff; margin-bottom: 6px; }
+        .profile p { color: #94a3b8; font-size: 1rem; line-height: 1.5; }
+        .badge { display: inline-block; background: rgba(56, 189, 248, 0.15); color: #38bdf8; padding: 5px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; margin-bottom: 12px; border: 1px solid rgba(56, 189, 248, 0.3); }
+        .projects { display: flex; flex-direction: column; gap: 20px; width: 100%; max-width: 480px; }
+        .card { background: rgba(30, 41, 59, 0.85); border: 1px solid #334155; border-radius: 18px; padding: 22px; transition: transform 0.2s, border-color 0.2s; box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); }
+        .card:hover { transform: translateY(-4px); border-color: #38bdf8; }
+        .card-header { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+        .icon { font-size: 2rem; background: #0f172a; padding: 10px; border-radius: 12px; }
+        .card h2 { font-size: 1.3rem; color: #f8fafc; }
+        .card p { color: #cbd5e1; font-size: 0.92rem; line-height: 1.5; margin-bottom: 18px; }
+        .btn { display: block; text-align: center; text-decoration: none; padding: 12px; border-radius: 12px; font-weight: bold; font-size: 1rem; transition: opacity 0.2s; }
+        .btn-ai { background: linear-gradient(90deg, #0284c7, #38bdf8); color: #0f172a; }
+        .btn-game { background: linear-gradient(90deg, #16a34a, #4ade80); color: #0f172a; }
+        .btn:active { opacity: 0.85; }
+        footer { margin-top: auto; padding-top: 40px; color: #64748b; font-size: 0.85rem; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <div class="profile">
+        <div class="avatar">HP</div>
+        <span class="badge">✨ Creator & Developer</span>
+        <h1>Het Patel</h1>
+        <p>નમસ્તે! હું <b>Het Patel</b> છું. મેં બનાવેલા AI ટૂલ અને વેબ ગેમ્સ નીચે મુજબ છે — તમે સીધા અહીંથી જ તેનો ઉપયોગ કરી શકો છો.</p>
+    </div>
+
+    <div class="projects">
+        <!-- Project 1: het AI -->
+        <div class="card">
+            <div class="card-header">
+                <div class="icon">🤖</div>
+                <div>
+                    <h2>het AI - Smart Assistant</h2>
+                </div>
+            </div>
+            <p>ગુજરાતી અને અંગ્રેજીમાં સવાલોના જવાબ આપતું સ્માર્ટ AI ચેટબોટ, જેમાં વૉઇસ ટાઇપિંગ (માઇક) અને ચેટ હિસ્ટ્રી જેવા ફીચર્સ સામેલ છે.</p>
+            <a href="https://vercel.app" target="_blank" class="btn btn-ai">🚀 het AI ખોલો</a>
+        </div>
+
+        <!-- Project 2: Car Parking Game -->
+        <div class="card">
+            <div class="card-header">
+                <div class="icon">🏎️</div>
+                <div>
+                    <h2>Car Parking 100 - Pro</h2>
+                </div>
+            </div>
+            <p>૧૦૦ લેવલ, લાઈવ સ્કોર બોર્ડ, હાઈ-સ્કોર અને રિયલ સાઉન્ડ ઇફેક્ટ્સ સાથેની મજેદાર મોબાઈલ કાર પાર્કિંગ ગેમ.</p>
+            <a href="https://github.io" target="_blank" class="btn btn-game">🎮 ગેમ રમો</a>
+        </div>
+    </div>
+
+    <footer>
+        Made with ❤️ by <b>Het Patel</b> • 2026
+    </footer>
+
+</body>
+</html>
